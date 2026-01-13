@@ -1,0 +1,107 @@
+body {
+    background-color: #333;
+    color: #f1f1f1ea;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    text-align: center;
+
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px;
+    background-color: rgba(26, 110, 236, 0.158);
+    padding: 50px;
+    width: 300px;
+    border: solid rgba(26, 110, 236, 0);
+    box-shadow: 5px 5px 10px rgba(26, 110, 236, 0.158);
+    border-radius: 10px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap: 5px;
+}
+
+#lastname,
+#firstname,
+#zipCode,
+#Mail,
+#DOB {
+    border-radius: 5px;
+    padding: 5px;
+    align-items: center;
+    border: 2px solid white;
+}
+
+#create {
+    width: 100%;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#create:hover {
+    background-color: rgba(9, 241, 9, 0.637);
+    transition: 0.5s ease-in;
+    transform: scale(1.1);
+    border: 2px solid rgba(9, 241, 9, 0)
+}
+
+#delete:hover {
+    background-color: rgba(241, 9, 9, 0.863);
+    transition: 0.5s ease-in;
+    transform: scale(1.1);
+    border: solid rgba(241, 9, 9, 0)
+}
+
+#update:hover {
+    background-color: rgba(241, 140, 9, 0.863);
+    transition: 0.5s ease-in;
+    transform: scale(1.1);
+    border: solid rgba(241, 9, 9, 0)
+}
+
+#confirm_update:hover {
+    background-color: rgba(9, 241, 9, 0.637);
+    transition: 0.5s ease-in;
+    transform: scale(1.1);
+    border: 2px solid rgba(9, 241, 9, 0)
+}
+
+.table-user{
+    text-align: center;
+    border: 0px;
+    border-spacing: 15px;
+}
+
+#delete,
+#update,
+#confirm_update {
+    width: 100%;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
