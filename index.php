@@ -68,7 +68,7 @@ require_once("db.php")
                             <form action="update_user.php" method="post"> <button type="submit" name="update" id="update" value="<?php echo $user["id"] ?>">Modifier</button></form>
                         </td>
                         <td>
-                            <form action="" method="post"> <button type="submit" name="delete" id="delete">Supprimer</button></form>
+                            <form action="" method="post"> <button type="submit" name="delete" id="delete" value="<?php echo $user["id"] ?>">Supprimer</button></form>
                         </td>
                     </tr> <?php } ?>
 
